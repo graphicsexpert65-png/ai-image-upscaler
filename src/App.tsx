@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect, useRef } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Header } from './components/Header';
 import { ImageUploader } from './components/ImageUploader';
 import { OriginalPreview } from './components/OriginalPreview';
@@ -126,6 +127,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-100 flex flex-col antialiased selection:bg-sky-500 selection:text-zinc-950">
       <Header device={device} />
+      <Analytics />
 
       <main className="flex-1 max-w-4xl w-full mx-auto p-4 sm:p-6 space-y-6">
         {/* Error Notification */}
