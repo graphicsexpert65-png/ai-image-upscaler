@@ -12,6 +12,7 @@ import { ProcessingProgress } from './components/ProcessingProgress';
 import { BeforeAfterSlider } from './components/BeforeAfterSlider';
 import { ResultDetails } from './components/ResultDetails';
 import { DownloadSection } from './components/DownloadSection';
+import { Feedback } from './Feedback';
 import { ErrorAlert } from './components/ErrorAlert';
 import {
   EnhancementMode,
