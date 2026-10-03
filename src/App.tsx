@@ -179,6 +179,7 @@ export default function App() {
                 <BeforeAfterSlider original={imageInfo} result={result} />
                 <ResultDetails original={imageInfo} result={result} />
                 <DownloadSection original={imageInfo} result={result} />
+                <Feedback />
               </div>
             )}
           </div>
